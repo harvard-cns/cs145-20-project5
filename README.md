@@ -12,7 +12,7 @@ Discussing with students we enable automatic arp in previous setting. Now we nee
 # Objectives
 
 - Learn how a switch can dynamically adapt its routes
-	- Learn communication patterns that are used to share state between the data plane and the control plane of a switch. <mark>Do you mean controller? if so, change throughout the file</mark>
+	- Learn communication patterns that are used to share state between the data plane and the control plane of a switch.
 	- Understand how the control plane can be used to programmatically set up and update the routing logic in a network.
 	- Get acquainted with the Address Resolution Protocol (ARP) and understand how it works.
 
@@ -54,7 +54,7 @@ Note: in the previous experiments, we enabled automatic ARP table learning by ig
 ## Part Two: Programming the Egress Pipeline
 
 Since you called `clone3`, the packet has now been cloned and is in the egress pipeline. Here you have to do the following:
-- Check if `instance_type` equals ` (i.e the packet is a clone)
+- Check if `instance_type` equals `1` (i.e the packet is a clone)
 
 - Then set the `cpu_t` header to be vald by using `setValid()`. Fill the `cpu_t` header with the mac source address and ingress port.
 
