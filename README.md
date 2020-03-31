@@ -102,3 +102,9 @@ The total grades is 100:
 - 20: For passing the automated tests.
 - 60: We will manually check the correctness of your solutions for failure handling. 
 - Deductions based on late policies
+
+### Survey
+
+Please fill up the survey when you finish your project.
+
+[Survey link](https://docs.google.com/forms/d/e/1FAIpQLSfoxIkNcpFvuRn3x6i67dQ0SEyCNUfxvSIqUg-ZFrlsUuzTUA/viewform?usp=sf_link)
